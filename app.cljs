@@ -10,7 +10,6 @@
 ;; https://www.mongodb.com/languages/mongodb-with-nodejs
 ;; https://momentjs.com/
 
-(def password "YHWGYQr4l3lX5bKe")
 (def db "birthday_db")
 (def uri (str "mongodb+srv://onthecodeagain:" password "@cluster0.2pbdq.mongodb.net/" db "?retryWrites=true&w=majority"))
 
