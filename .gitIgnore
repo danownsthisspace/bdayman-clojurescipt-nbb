@@ -1,5 +1,5 @@
 .calva
-.cljs-kondo
-.lsp
-.node_modules
+.cache
+node_modules
 .nrepl-port
+.cpcache

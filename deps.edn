@@ -1,0 +1,2 @@
+;; deps that pull in clj-kondo config for promesa
+{:deps {funcool/promesa {:mvn/version "8.0.450"}}}

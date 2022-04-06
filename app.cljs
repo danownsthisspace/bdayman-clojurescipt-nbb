@@ -11,8 +11,8 @@
 ;; https://momentjs.com/
 
 (def db "birthday_db")
+(def password js/process.env.BDAYMAN_MONGO_PASSWORD)
 (def uri (str "mongodb+srv://onthecodeagain:" password "@cluster0.2pbdq.mongodb.net/" db "?retryWrites=true&w=majority"))
-
 
 (defn store-birthday [name day month]
   (p/let [mongo-client (.connect mongodb/MongoClient uri)
