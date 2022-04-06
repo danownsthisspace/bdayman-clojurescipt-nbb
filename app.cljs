@@ -1,8 +1,8 @@
 (ns app
-  (:require ["inquirer$default" :as inquirer]
-            ["mongodb$default" :as mongodb]
+  (:require ["console$log" :as log]
+            ["inquirer$default" :as inquirer]
             ["moment$default" :as moment]
-            ["console$log" :as log]
+            ["mongodb$default" :as mongodb]
             [promesa.core :as p]))
 
 ;; https://github.com/babashka/nbb
